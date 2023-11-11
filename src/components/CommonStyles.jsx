@@ -8,7 +8,7 @@ export const Title = styled.div`
 export const ResultTitle = styled.div`
   font-size: 30px;
   margin: 20px;
-  margin-right: 20px;
+  margin-right: 30px;
   font-family: "BMJUA";
 `;
 export const Divider = styled.div`

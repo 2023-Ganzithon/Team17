@@ -11,7 +11,8 @@ import axios from "axios";
 import Footer from "../components/footer";
 
 const dummyData = JSON.parse(
-  `{ "title": "도란도란과 함께라면 걱정 없어", "thumbnail": "https://source.unsplash.com/1600x900/?coding", 
+  `{ "title": "도란도란과 함께라면 걱정 없어", 
+  "thumbnail": "https://source.unsplash.com/1600x900/?coding", 
   "summary": "내 일상 속 문제를 해결하고 내 마음을 털어놓을 수 있는 도란도란 ", 
   "emotional_content": "오늘 코딩 강의를 들었는데, 프로젝트에 버그가 많이 나왔어. 스택오버플로에서 검색해봤지만 해결되지 않았어. 그래서 결국 GPT를 통해서 문제를 해결하게 되었어. 하지만 이렇게 해결하는 것이 내 개발 실력에 도움이 될까 고민이 되는군.", 
   "emotional_result": "이번 상황을 통해 내가 프로그래밍에 대해 더 배울 필요가 있음을 느꼈다. 버그를 해결하는 데에만 의존하는 것보다 개념적으로 이해하고 해결하는 것이 더 중요하다는 것을 깨달았다.", 
